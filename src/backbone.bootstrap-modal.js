@@ -26,7 +26,7 @@
     <% if (title) { %>\
       <div class="modal-header">\
         <% if (allowCancel) { %>\
-          <a class="close">&times;</a>\
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>\
         <% } %>\
         <h4>{{title}}</h4>\
       </div>\
